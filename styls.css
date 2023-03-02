@@ -1,7 +1,5 @@
 body {
     height: 100vh;
-    display: flex;
-    justify-content: center;
 }
 
 ul {
@@ -9,9 +7,18 @@ ul {
     padding: 0;
     list-style: none;
 }
+
+.top-section {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    height: 300px;
+}
 .content {
+    width: 700px;
     border: 1px solid purple;
 }
+
 /* header */
 .header {
     display: flex;
@@ -27,7 +34,7 @@ ul {
 .top-content {
     border: 1px solid blue;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 
 }
 
@@ -35,8 +42,13 @@ ul {
     border: red solid 1px;
 }
 
+.left {
+    flex-wrap: wrap;
+    width: 400px;
+}
 
 .right {
     background-color: grey;
 }
 
+/* text */
