@@ -1,5 +1,7 @@
 body {
     height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 
 ul {
@@ -7,7 +9,9 @@ ul {
     padding: 0;
     list-style: none;
 }
-
+.content {
+    border: 1px solid purple;
+}
 /* header */
 .header {
     display: flex;
@@ -21,7 +25,7 @@ ul {
 
 /* top content */
 .top-content {
-    border: 1px solid red;
+    border: 1px solid blue;
     display: flex;
     justify-content: center;
 
